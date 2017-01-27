@@ -14,7 +14,7 @@ import in.kirancity.jersey.messanger.service.MessageService;
 public class MessageResource {
 	
 	MessageService messageService = new MessageService();
-	
+
 	@GET
 	@Produces(MediaType.APPLICATION_XML)
 	public List<Message> getMessages(){
